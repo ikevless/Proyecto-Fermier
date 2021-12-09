@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD9D14D0-6F50-4F76-8C00-7CF9735E583F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SG</RootNamespace>
+    <AssemblyName>SG</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\recursos\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\recursos\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\Desktop\TODO(ESCRITORIO)\7MO SEMESTRE\DESARROLLO DE SOFTWARE\Guna-Framework-master\Guna-Framework-master\extension\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modelos\animales_Modelos.cs" />
+    <Compile Include="Modelos\agregarop_Modelos.cs" />
+    <Compile Include="Modelos\Conexion.cs" />
+    <Compile Include="Modelos\establo_Modelos.cs" />
+    <Compile Include="Modelos\infoanimal_Modelos.cs" />
+    <Compile Include="Modelos\login_Modelos.cs" />
+    <Compile Include="Modelos\logo_Modelos.cs" />
+    <Compile Include="Modelos\Menuadmin_Modelos.cs" />
+    <Compile Include="Modelos\menuop_Modelos.cs" />
+    <Compile Include="Modelos\Reg_ganado_Modelos.cs" />
+    <Compile Include="Modelos\Reg_parto_Modelos.cs" />
+    <Compile Include="Modelos\Reg_pesaje_Modelos.cs" />
+    <Compile Include="Modelos\Reg_salida_Modelos.cs" />
+    <Compile Include="Modelos\Reg_tratamiento_Modelos.cs" />
+    <Compile Include="Modelos\Reg_vacuna_Modelos.cs" />
+    <Compile Include="Vistas\agregarop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\agregarop.Designer.cs">
+      <DependentUpon>agregarop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controladores\agregarop_Controlador.cs" />
+    <Compile Include="Controladores\animales_Controlador.cs" />
+    <Compile Include="Controladores\establo_Controlador.cs" />
+    <Compile Include="Controladores\infoanimal_Controlador.cs" />
+    <Compile Include="Controladores\Login_Controlador.cs" />
+    <Compile Include="Controladores\Logo_Controlador.cs" />
+    <Compile Include="Controladores\Menuadmin_Controlador.cs" />
+    <Compile Include="Controladores\menuop_Controlador.cs" />
+    <Compile Include="Controladores\Reg_Ganado_Controlador.cs" />
+    <Compile Include="Controladores\Reg_parto_Controlador.cs" />
+    <Compile Include="Controladores\Reg_pesaje_Controlador.cs" />
+    <Compile Include="Controladores\Reg_salida_Controlador.cs" />
+    <Compile Include="Controladores\Reg_tratamiento_Controlador.cs" />
+    <Compile Include="Controladores\Reg_vacuna_Controlador.cs" />
+    <Compile Include="Vistas\establo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\establo.Designer.cs">
+      <DependentUpon>establo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Animales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\Animales.Designer.cs">
+      <DependentUpon>Animales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Gastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Gastos.Designer.cs">
+      <DependentUpon>Gastos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\infoanimal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\infoanimal.designer.cs">
+      <DependentUpon>infoanimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logo.Designer.cs">
+      <DependentUpon>Logo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Menuadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Menuadmin.Designer.cs">
+      <DependentUpon>Menuadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\MenuOp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\MenuOp.Designer.cs">
+      <DependentUpon>MenuOp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\reg_ganado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_ganado.Designer.cs">
+      <DependentUpon>reg_ganado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\reg_parto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_parto.designer.cs">
+      <DependentUpon>reg_parto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\reg_pesaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_pesaje.designer.cs">
+      <DependentUpon>reg_pesaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\reg_salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_salida.Designer.cs">
+      <DependentUpon>reg_salida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\reg_tratamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_tratamiento.Designer.cs">
+      <DependentUpon>reg_tratamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\reg_vacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\reg_vacuna.designer.cs">
+      <DependentUpon>reg_vacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\agregarop.resx">
+      <DependentUpon>agregarop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\establo.resx">
+      <DependentUpon>establo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Animales.resx">
+      <DependentUpon>Animales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\infoanimal.resx">
+      <DependentUpon>infoanimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Logo.resx">
+      <DependentUpon>Logo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Menuadmin.resx">
+      <DependentUpon>Menuadmin.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\MenuOp.resx">
+      <DependentUpon>MenuOp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vistas\reg_ganado.resx">
+      <DependentUpon>reg_ganado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_parto.resx">
+      <DependentUpon>reg_parto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_pesaje.resx">
+      <DependentUpon>reg_pesaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_salida.resx">
+      <DependentUpon>reg_salida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_tratamiento.resx">
+      <DependentUpon>reg_tratamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_vacuna.resx">
+      <DependentUpon>reg_vacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
