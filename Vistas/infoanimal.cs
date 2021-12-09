@@ -50,5 +50,10 @@ namespace SG
         {
 
         }
+
+        private void gunaLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,12 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(reg_pesaje));
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.cbx_op = new Guna.UI.WinForms.GunaComboBox();
             this.txb_peso = new Guna.UI.WinForms.GunaLineTextBox();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.dat_reg = new Guna.UI.WinForms.GunaDateTimePicker();
             this.lbl_parto = new Guna.UI.WinForms.GunaLabel();
             this.dat_peso = new Guna.UI.WinForms.GunaDateTimePicker();
             this.lbl_asistentes = new Guna.UI.WinForms.GunaLabel();
+            this.cbx_id = new Guna.UI.WinForms.GunaComboBox();
             this.lbl_crias = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
@@ -48,8 +50,6 @@
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
             this.btn_volver = new Guna.UI.WinForms.GunaGradientButton();
             this.btn_guardar = new Guna.UI.WinForms.GunaGradientButton();
-            this.cbx_op = new Guna.UI.WinForms.GunaComboBox();
-            this.cbx_id = new Guna.UI.WinForms.GunaComboBox();
             this.gunaGradient2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_ganado)).BeginInit();
             this.pnl_ganado.SuspendLayout();
@@ -82,13 +82,31 @@
             this.gunaGradient2Panel1.Size = new System.Drawing.Size(405, 430);
             this.gunaGradient2Panel1.TabIndex = 46;
             // 
+            // cbx_op
+            // 
+            this.cbx_op.BackColor = System.Drawing.Color.Transparent;
+            this.cbx_op.BaseColor = System.Drawing.Color.White;
+            this.cbx_op.BorderColor = System.Drawing.Color.Silver;
+            this.cbx_op.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbx_op.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_op.FocusedColor = System.Drawing.Color.Empty;
+            this.cbx_op.Font = new System.Drawing.Font("Altone Trial", 12F);
+            this.cbx_op.ForeColor = System.Drawing.Color.Black;
+            this.cbx_op.FormattingEnabled = true;
+            this.cbx_op.Location = new System.Drawing.Point(205, 118);
+            this.cbx_op.Name = "cbx_op";
+            this.cbx_op.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbx_op.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbx_op.Size = new System.Drawing.Size(121, 28);
+            this.cbx_op.TabIndex = 2;
+            // 
             // txb_peso
             // 
             this.txb_peso.Animated = true;
             this.txb_peso.BackColor = System.Drawing.Color.White;
             this.txb_peso.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txb_peso.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_peso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_peso.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_peso.LineColor = System.Drawing.Color.Gainsboro;
             this.txb_peso.Location = new System.Drawing.Point(205, 194);
             this.txb_peso.Name = "txb_peso";
@@ -99,11 +117,11 @@
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.Font = new System.Drawing.Font("Altone Trial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(54)))), ((int)(((byte)(94)))));
             this.gunaLabel3.Location = new System.Drawing.Point(49, 346);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(84, 24);
+            this.gunaLabel3.Size = new System.Drawing.Size(104, 25);
             this.gunaLabel3.TabIndex = 40;
             this.gunaLabel3.Text = "Registro:";
             // 
@@ -114,7 +132,7 @@
             this.dat_reg.CustomFormat = null;
             this.dat_reg.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dat_reg.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dat_reg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dat_reg.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.dat_reg.ForeColor = System.Drawing.Color.Black;
             this.dat_reg.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dat_reg.Location = new System.Drawing.Point(205, 343);
@@ -133,11 +151,11 @@
             // lbl_parto
             // 
             this.lbl_parto.AutoSize = true;
-            this.lbl_parto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_parto.Font = new System.Drawing.Font("Altone Trial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_parto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(54)))), ((int)(((byte)(94)))));
             this.lbl_parto.Location = new System.Drawing.Point(49, 270);
             this.lbl_parto.Name = "lbl_parto";
-            this.lbl_parto.Size = new System.Drawing.Size(58, 24);
+            this.lbl_parto.Size = new System.Drawing.Size(75, 25);
             this.lbl_parto.TabIndex = 39;
             this.lbl_parto.Text = "Parto:";
             // 
@@ -148,7 +166,7 @@
             this.dat_peso.CustomFormat = null;
             this.dat_peso.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dat_peso.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dat_peso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dat_peso.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.dat_peso.ForeColor = System.Drawing.Color.Black;
             this.dat_peso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dat_peso.Location = new System.Drawing.Point(205, 267);
@@ -167,33 +185,51 @@
             // lbl_asistentes
             // 
             this.lbl_asistentes.AutoSize = true;
-            this.lbl_asistentes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_asistentes.Font = new System.Drawing.Font("Altone Trial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_asistentes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(54)))), ((int)(((byte)(94)))));
             this.lbl_asistentes.Location = new System.Drawing.Point(42, 197);
             this.lbl_asistentes.Name = "lbl_asistentes";
-            this.lbl_asistentes.Size = new System.Drawing.Size(112, 24);
+            this.lbl_asistentes.Size = new System.Drawing.Size(139, 25);
             this.lbl_asistentes.TabIndex = 36;
             this.lbl_asistentes.Text = "Peso actual:";
+            // 
+            // cbx_id
+            // 
+            this.cbx_id.BackColor = System.Drawing.Color.Transparent;
+            this.cbx_id.BaseColor = System.Drawing.Color.White;
+            this.cbx_id.BorderColor = System.Drawing.Color.Silver;
+            this.cbx_id.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbx_id.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_id.FocusedColor = System.Drawing.Color.Empty;
+            this.cbx_id.Font = new System.Drawing.Font("Altone Trial", 12F);
+            this.cbx_id.ForeColor = System.Drawing.Color.Black;
+            this.cbx_id.FormattingEnabled = true;
+            this.cbx_id.Location = new System.Drawing.Point(205, 40);
+            this.cbx_id.Name = "cbx_id";
+            this.cbx_id.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbx_id.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbx_id.Size = new System.Drawing.Size(121, 28);
+            this.cbx_id.TabIndex = 1;
             // 
             // lbl_crias
             // 
             this.lbl_crias.AutoSize = true;
-            this.lbl_crias.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_crias.Font = new System.Drawing.Font("Altone Trial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_crias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(54)))), ((int)(((byte)(94)))));
             this.lbl_crias.Location = new System.Drawing.Point(42, 119);
             this.lbl_crias.Name = "lbl_crias";
-            this.lbl_crias.Size = new System.Drawing.Size(96, 24);
+            this.lbl_crias.Size = new System.Drawing.Size(116, 25);
             this.lbl_crias.TabIndex = 27;
             this.lbl_crias.Text = "Operador:";
             // 
             // lbl_id
             // 
             this.lbl_id.AutoSize = true;
-            this.lbl_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.Font = new System.Drawing.Font("Altone Trial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(54)))), ((int)(((byte)(94)))));
             this.lbl_id.Location = new System.Drawing.Point(42, 43);
             this.lbl_id.Name = "lbl_id";
-            this.lbl_id.Size = new System.Drawing.Size(65, 24);
+            this.lbl_id.Size = new System.Drawing.Size(80, 25);
             this.lbl_id.TabIndex = 23;
             this.lbl_id.Text = "Arete: ";
             // 
@@ -208,9 +244,9 @@
             // 
             // lbl_reg
             // 
-            this.lbl_reg.Location = new System.Drawing.Point(181, 101);
+            this.lbl_reg.Location = new System.Drawing.Point(144, 106);
             this.lbl_reg.Name = "lbl_reg";
-            this.lbl_reg.Size = new System.Drawing.Size(293, 39);
+            this.lbl_reg.Size = new System.Drawing.Size(370, 35);
             this.lbl_reg.StateCommon.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.lbl_reg.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(214)))));
             this.lbl_reg.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(192)))), ((int)(((byte)(168)))));
@@ -218,6 +254,7 @@
             this.lbl_reg.StateCommon.ShortText.ColorAngle = 10F;
             this.lbl_reg.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.HalfCut;
             this.lbl_reg.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbl_reg.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_reg.TabIndex = 44;
             this.lbl_reg.Values.Text = "Registro de Pesajes";
             // 
@@ -290,7 +327,7 @@
             this.btn_volver.BorderSize = 1;
             this.btn_volver.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btn_volver.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_volver.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_volver.ForeColor = System.Drawing.Color.White;
             this.btn_volver.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btn_volver.Image = ((System.Drawing.Image)(resources.GetObject("btn_volver.Image")));
@@ -339,48 +376,12 @@
             this.btn_guardar.TabIndex = 40;
             this.btn_guardar.Text = "Guardar";
             // 
-            // cbx_op
-            // 
-            this.cbx_op.BackColor = System.Drawing.Color.Transparent;
-            this.cbx_op.BaseColor = System.Drawing.Color.White;
-            this.cbx_op.BorderColor = System.Drawing.Color.Silver;
-            this.cbx_op.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbx_op.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbx_op.FocusedColor = System.Drawing.Color.Empty;
-            this.cbx_op.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.cbx_op.ForeColor = System.Drawing.Color.Black;
-            this.cbx_op.FormattingEnabled = true;
-            this.cbx_op.Location = new System.Drawing.Point(205, 118);
-            this.cbx_op.Name = "cbx_op";
-            this.cbx_op.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.cbx_op.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cbx_op.Size = new System.Drawing.Size(121, 27);
-            this.cbx_op.TabIndex = 2;
-            // 
-            // cbx_id
-            // 
-            this.cbx_id.BackColor = System.Drawing.Color.Transparent;
-            this.cbx_id.BaseColor = System.Drawing.Color.White;
-            this.cbx_id.BorderColor = System.Drawing.Color.Silver;
-            this.cbx_id.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbx_id.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbx_id.FocusedColor = System.Drawing.Color.Empty;
-            this.cbx_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.cbx_id.ForeColor = System.Drawing.Color.Black;
-            this.cbx_id.FormattingEnabled = true;
-            this.cbx_id.Location = new System.Drawing.Point(205, 40);
-            this.cbx_id.Name = "cbx_id";
-            this.cbx_id.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.cbx_id.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cbx_id.Size = new System.Drawing.Size(121, 27);
-            this.cbx_id.TabIndex = 1;
-            // 
             // reg_pesaje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(241)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(632, 640);
+            this.ClientSize = new System.Drawing.Size(630, 735);
             this.Controls.Add(this.gunaGradient2Panel1);
             this.Controls.Add(this.gunaGradientButton1);
             this.Controls.Add(this.btn_volver);

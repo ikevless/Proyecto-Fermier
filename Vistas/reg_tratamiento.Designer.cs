@@ -90,11 +90,10 @@
             this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(77)))), ((int)(((byte)(69)))));
             this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
             this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(47, 178);
-            this.gunaGradient2Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(35, 145);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 10;
-            this.gunaGradient2Panel1.Size = new System.Drawing.Size(1077, 679);
+            this.gunaGradient2Panel1.Size = new System.Drawing.Size(808, 552);
             this.gunaGradient2Panel1.TabIndex = 46;
             this.gunaGradient2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaGradient2Panel1_Paint);
             // 
@@ -104,13 +103,12 @@
             this.txb_dosis.BackColor = System.Drawing.Color.White;
             this.txb_dosis.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txb_dosis.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_dosis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_dosis.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_dosis.LineColor = System.Drawing.Color.Gainsboro;
-            this.txb_dosis.Location = new System.Drawing.Point(821, 247);
-            this.txb_dosis.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_dosis.Location = new System.Drawing.Point(616, 201);
             this.txb_dosis.Name = "txb_dosis";
             this.txb_dosis.PasswordChar = '\0';
-            this.txb_dosis.Size = new System.Drawing.Size(216, 41);
+            this.txb_dosis.Size = new System.Drawing.Size(162, 33);
             this.txb_dosis.TabIndex = 6;
             // 
             // gunaGradientButton1
@@ -130,8 +128,7 @@
             this.gunaGradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.gunaGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton1.Image")));
             this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton1.Location = new System.Drawing.Point(874, 559);
-            this.gunaGradientButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaGradientButton1.Location = new System.Drawing.Point(656, 454);
             this.gunaGradientButton1.Name = "gunaGradientButton1";
             this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(192)))), ((int)(((byte)(168)))));
             this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
@@ -140,19 +137,18 @@
             this.gunaGradientButton1.OnHoverImage = null;
             this.gunaGradientButton1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaGradientButton1.Radius = 5;
-            this.gunaGradientButton1.Size = new System.Drawing.Size(180, 52);
+            this.gunaGradientButton1.Size = new System.Drawing.Size(135, 42);
             this.gunaGradientButton1.TabIndex = 41;
             this.gunaGradientButton1.Text = "Cancelar";
             // 
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(604, 251);
-            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(453, 204);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(80, 29);
+            this.gunaLabel2.Size = new System.Drawing.Size(72, 25);
             this.gunaLabel2.TabIndex = 54;
             this.gunaLabel2.Text = "Dosis:";
             // 
@@ -162,24 +158,22 @@
             this.txb_sintomas.BackColor = System.Drawing.Color.White;
             this.txb_sintomas.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txb_sintomas.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_sintomas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_sintomas.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_sintomas.LineColor = System.Drawing.Color.Gainsboro;
-            this.txb_sintomas.Location = new System.Drawing.Point(285, 342);
-            this.txb_sintomas.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_sintomas.Location = new System.Drawing.Point(214, 278);
             this.txb_sintomas.Name = "txb_sintomas";
             this.txb_sintomas.PasswordChar = '\0';
-            this.txb_sintomas.Size = new System.Drawing.Size(216, 41);
+            this.txb_sintomas.Size = new System.Drawing.Size(162, 33);
             this.txb_sintomas.TabIndex = 7;
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(68, 346);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(51, 281);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(119, 29);
+            this.gunaLabel1.Size = new System.Drawing.Size(114, 25);
             this.gunaLabel1.TabIndex = 44;
             this.gunaLabel1.Text = "Sintomas:";
             // 
@@ -200,8 +194,7 @@
             this.btn_guardar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("btn_guardar.Image")));
             this.btn_guardar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_guardar.Location = new System.Drawing.Point(874, 452);
-            this.btn_guardar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_guardar.Location = new System.Drawing.Point(656, 367);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(192)))), ((int)(((byte)(168)))));
             this.btn_guardar.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
@@ -210,33 +203,31 @@
             this.btn_guardar.OnHoverImage = null;
             this.btn_guardar.OnPressedColor = System.Drawing.Color.Black;
             this.btn_guardar.Radius = 5;
-            this.btn_guardar.Size = new System.Drawing.Size(180, 52);
+            this.btn_guardar.Size = new System.Drawing.Size(135, 42);
             this.btn_guardar.TabIndex = 40;
             this.btn_guardar.Text = "Guardar";
             // 
             // txb_obs
             // 
-            this.txb_obs.Location = new System.Drawing.Point(73, 496);
-            this.txb_obs.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_obs.Location = new System.Drawing.Point(55, 403);
             this.txb_obs.Name = "txb_obs";
-            this.txb_obs.Size = new System.Drawing.Size(551, 153);
+            this.txb_obs.Size = new System.Drawing.Size(413, 124);
             this.txb_obs.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.txb_obs.StateNormal.Border.Rounding = 5;
-            this.txb_obs.StateNormal.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txb_obs.StateNormal.Content.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_obs.TabIndex = 8;
             this.txb_obs.Text = "";
             // 
             // lbl_obs
             // 
             this.lbl_obs.AutoSize = true;
-            this.lbl_obs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_obs.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_obs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.lbl_obs.Location = new System.Drawing.Point(68, 438);
-            this.lbl_obs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_obs.Location = new System.Drawing.Point(51, 356);
             this.lbl_obs.Name = "lbl_obs";
-            this.lbl_obs.Size = new System.Drawing.Size(181, 29);
+            this.lbl_obs.Size = new System.Drawing.Size(172, 25);
             this.lbl_obs.TabIndex = 42;
             this.lbl_obs.Text = "Observaciones:";
             // 
@@ -246,24 +237,22 @@
             this.txb_aplicador.BackColor = System.Drawing.Color.White;
             this.txb_aplicador.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txb_aplicador.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_aplicador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_aplicador.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_aplicador.LineColor = System.Drawing.Color.Gainsboro;
-            this.txb_aplicador.Location = new System.Drawing.Point(285, 247);
-            this.txb_aplicador.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_aplicador.Location = new System.Drawing.Point(214, 201);
             this.txb_aplicador.Name = "txb_aplicador";
             this.txb_aplicador.PasswordChar = '\0';
-            this.txb_aplicador.Size = new System.Drawing.Size(216, 41);
+            this.txb_aplicador.Size = new System.Drawing.Size(162, 33);
             this.txb_aplicador.TabIndex = 5;
             // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.gunaLabel3.Location = new System.Drawing.Point(604, 153);
-            this.gunaLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel3.Location = new System.Drawing.Point(453, 121);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(110, 29);
+            this.gunaLabel3.Size = new System.Drawing.Size(104, 25);
             this.gunaLabel3.TabIndex = 40;
             this.gunaLabel3.Text = "Registro:";
             // 
@@ -274,11 +263,10 @@
             this.dat_reg.CustomFormat = null;
             this.dat_reg.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dat_reg.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dat_reg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dat_reg.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.dat_reg.ForeColor = System.Drawing.Color.Black;
             this.dat_reg.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dat_reg.Location = new System.Drawing.Point(821, 149);
-            this.dat_reg.Margin = new System.Windows.Forms.Padding(4);
+            this.dat_reg.Location = new System.Drawing.Point(616, 121);
             this.dat_reg.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dat_reg.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dat_reg.Name = "dat_reg";
@@ -286,7 +274,7 @@
             this.dat_reg.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dat_reg.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dat_reg.OnPressedColor = System.Drawing.Color.Black;
-            this.dat_reg.Size = new System.Drawing.Size(216, 32);
+            this.dat_reg.Size = new System.Drawing.Size(162, 26);
             this.dat_reg.TabIndex = 4;
             this.dat_reg.Text = "14/10/2021";
             this.dat_reg.Value = new System.DateTime(2021, 10, 14, 1, 33, 14, 379);
@@ -294,14 +282,13 @@
             // lbl_parto
             // 
             this.lbl_parto.AutoSize = true;
-            this.lbl_parto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_parto.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_parto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.lbl_parto.Location = new System.Drawing.Point(558, 53);
-            this.lbl_parto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_parto.Location = new System.Drawing.Point(453, 43);
             this.lbl_parto.Name = "lbl_parto";
-            this.lbl_parto.Size = new System.Drawing.Size(235, 29);
+            this.lbl_parto.Size = new System.Drawing.Size(124, 25);
             this.lbl_parto.TabIndex = 39;
-            this.lbl_parto.Text = "Fecha de aplicacion:";
+            this.lbl_parto.Text = "Aplicación:";
             // 
             // dat_trat
             // 
@@ -310,11 +297,10 @@
             this.dat_trat.CustomFormat = null;
             this.dat_trat.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dat_trat.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dat_trat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dat_trat.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.dat_trat.ForeColor = System.Drawing.Color.Black;
             this.dat_trat.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dat_trat.Location = new System.Drawing.Point(821, 53);
-            this.dat_trat.Margin = new System.Windows.Forms.Padding(4);
+            this.dat_trat.Location = new System.Drawing.Point(616, 43);
             this.dat_trat.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dat_trat.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dat_trat.Name = "dat_trat";
@@ -322,7 +308,7 @@
             this.dat_trat.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dat_trat.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dat_trat.OnPressedColor = System.Drawing.Color.Black;
-            this.dat_trat.Size = new System.Drawing.Size(216, 32);
+            this.dat_trat.Size = new System.Drawing.Size(162, 26);
             this.dat_trat.TabIndex = 2;
             this.dat_trat.Text = "14/10/2021";
             this.dat_trat.Value = new System.DateTime(2021, 10, 14, 1, 33, 14, 379);
@@ -330,12 +316,11 @@
             // lbl_asistentes
             // 
             this.lbl_asistentes.AutoSize = true;
-            this.lbl_asistentes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_asistentes.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_asistentes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.lbl_asistentes.Location = new System.Drawing.Point(68, 251);
-            this.lbl_asistentes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_asistentes.Location = new System.Drawing.Point(51, 204);
             this.lbl_asistentes.Name = "lbl_asistentes";
-            this.lbl_asistentes.Size = new System.Drawing.Size(121, 29);
+            this.lbl_asistentes.Size = new System.Drawing.Size(115, 25);
             this.lbl_asistentes.TabIndex = 36;
             this.lbl_asistentes.Text = "Aplicador:";
             // 
@@ -347,15 +332,14 @@
             this.cbx_id.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbx_id.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_id.FocusedColor = System.Drawing.Color.Empty;
-            this.cbx_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cbx_id.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.cbx_id.ForeColor = System.Drawing.Color.Black;
             this.cbx_id.FormattingEnabled = true;
-            this.cbx_id.Location = new System.Drawing.Point(285, 59);
-            this.cbx_id.Margin = new System.Windows.Forms.Padding(4);
+            this.cbx_id.Location = new System.Drawing.Point(214, 48);
             this.cbx_id.Name = "cbx_id";
             this.cbx_id.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.cbx_id.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cbx_id.Size = new System.Drawing.Size(111, 31);
+            this.cbx_id.Size = new System.Drawing.Size(84, 28);
             this.cbx_id.TabIndex = 1;
             // 
             // txb_nombre
@@ -364,38 +348,35 @@
             this.txb_nombre.BackColor = System.Drawing.Color.White;
             this.txb_nombre.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txb_nombre.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_nombre.Font = new System.Drawing.Font("Altone Trial", 12F);
             this.txb_nombre.LineColor = System.Drawing.Color.Gainsboro;
-            this.txb_nombre.Location = new System.Drawing.Point(285, 153);
-            this.txb_nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_nombre.Location = new System.Drawing.Point(214, 124);
             this.txb_nombre.Name = "txb_nombre";
             this.txb_nombre.PasswordChar = '\0';
-            this.txb_nombre.Size = new System.Drawing.Size(216, 41);
+            this.txb_nombre.Size = new System.Drawing.Size(162, 33);
             this.txb_nombre.TabIndex = 3;
             // 
             // lbl_crias
             // 
             this.lbl_crias.AutoSize = true;
-            this.lbl_crias.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_crias.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_crias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.lbl_crias.Location = new System.Drawing.Point(68, 156);
-            this.lbl_crias.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_crias.Location = new System.Drawing.Point(51, 127);
             this.lbl_crias.Name = "lbl_crias";
-            this.lbl_crias.Size = new System.Drawing.Size(107, 29);
+            this.lbl_crias.Size = new System.Drawing.Size(99, 25);
             this.lbl_crias.TabIndex = 27;
             this.lbl_crias.Text = "Nombre:";
             // 
             // lbl_id
             // 
             this.lbl_id.AutoSize = true;
-            this.lbl_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.lbl_id.Location = new System.Drawing.Point(68, 63);
-            this.lbl_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_id.Location = new System.Drawing.Point(51, 51);
             this.lbl_id.Name = "lbl_id";
-            this.lbl_id.Size = new System.Drawing.Size(48, 29);
+            this.lbl_id.Size = new System.Drawing.Size(75, 25);
             this.lbl_id.TabIndex = 23;
-            this.lbl_id.Text = "ID: ";
+            this.lbl_id.Text = "Arete:";
             // 
             // btn_volver
             // 
@@ -409,13 +390,12 @@
             this.btn_volver.BorderSize = 1;
             this.btn_volver.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btn_volver.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_volver.Font = new System.Drawing.Font("Bahnschrift SemiLight", 14.25F);
             this.btn_volver.ForeColor = System.Drawing.Color.White;
             this.btn_volver.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btn_volver.Image = ((System.Drawing.Image)(resources.GetObject("btn_volver.Image")));
             this.btn_volver.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_volver.Location = new System.Drawing.Point(921, 882);
-            this.btn_volver.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_volver.Location = new System.Drawing.Point(691, 717);
             this.btn_volver.Name = "btn_volver";
             this.btn_volver.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(189)))), ((int)(((byte)(186)))));
             this.btn_volver.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(82)))), ((int)(((byte)(73)))));
@@ -424,7 +404,7 @@
             this.btn_volver.OnHoverImage = null;
             this.btn_volver.OnPressedColor = System.Drawing.Color.Black;
             this.btn_volver.Radius = 5;
-            this.btn_volver.Size = new System.Drawing.Size(180, 52);
+            this.btn_volver.Size = new System.Drawing.Size(135, 42);
             this.btn_volver.TabIndex = 42;
             this.btn_volver.Text = "Volver";
             this.btn_volver.Click += new System.EventHandler(this.btn_volver_Click);
@@ -433,18 +413,16 @@
             // 
             this.gunaSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.gunaSeparator1.LineColor = System.Drawing.Color.Black;
-            this.gunaSeparator1.Location = new System.Drawing.Point(332, 151);
-            this.gunaSeparator1.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaSeparator1.Location = new System.Drawing.Point(249, 123);
             this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(539, 22);
+            this.gunaSeparator1.Size = new System.Drawing.Size(404, 18);
             this.gunaSeparator1.TabIndex = 45;
             // 
             // lbl_reg
             // 
-            this.lbl_reg.Location = new System.Drawing.Point(364, 108);
-            this.lbl_reg.Margin = new System.Windows.Forms.Padding(4);
+            this.lbl_reg.Location = new System.Drawing.Point(211, 88);
             this.lbl_reg.Name = "lbl_reg";
-            this.lbl_reg.Size = new System.Drawing.Size(434, 48);
+            this.lbl_reg.Size = new System.Drawing.Size(461, 35);
             this.lbl_reg.StateCommon.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.lbl_reg.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(26)))), ((int)(((byte)(23)))));
             this.lbl_reg.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(26)))), ((int)(((byte)(23)))));
@@ -452,6 +430,7 @@
             this.lbl_reg.StateCommon.ShortText.ColorAngle = 4F;
             this.lbl_reg.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.GlassTrackingSimple;
             this.lbl_reg.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbl_reg.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_reg.TabIndex = 44;
             this.lbl_reg.Values.Text = "Registro de Tratamiento";
             // 
@@ -459,20 +438,18 @@
             // 
             this.pnl_ganado.Controls.Add(this.gunaPictureBox1);
             this.pnl_ganado.Controls.Add(this.kryptonBorderEdge1);
-            this.pnl_ganado.Location = new System.Drawing.Point(-87, -39);
-            this.pnl_ganado.Margin = new System.Windows.Forms.Padding(4);
+            this.pnl_ganado.Location = new System.Drawing.Point(-65, -32);
             this.pnl_ganado.Name = "pnl_ganado";
-            this.pnl_ganado.Size = new System.Drawing.Size(1285, 140);
+            this.pnl_ganado.Size = new System.Drawing.Size(964, 114);
             this.pnl_ganado.TabIndex = 43;
             // 
             // gunaPictureBox1
             // 
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.Image")));
-            this.gunaPictureBox1.Location = new System.Drawing.Point(84, -81);
-            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(63, -66);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(1175, 386);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(881, 314);
             this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox1.TabIndex = 1;
             this.gunaPictureBox1.TabStop = false;
@@ -480,25 +457,23 @@
             // 
             // kryptonBorderEdge1
             // 
-            this.kryptonBorderEdge1.Location = new System.Drawing.Point(321, 114);
-            this.kryptonBorderEdge1.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonBorderEdge1.Location = new System.Drawing.Point(241, 93);
             this.kryptonBorderEdge1.Name = "kryptonBorderEdge1";
-            this.kryptonBorderEdge1.Size = new System.Drawing.Size(67, 1);
+            this.kryptonBorderEdge1.Size = new System.Drawing.Size(50, 1);
             this.kryptonBorderEdge1.Text = "kryptonBorderEdge1";
             // 
             // reg_tratamiento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(119)))), ((int)(((byte)(113)))));
-            this.ClientSize = new System.Drawing.Size(1143, 975);
+            this.ClientSize = new System.Drawing.Size(857, 792);
             this.Controls.Add(this.gunaGradient2Panel1);
             this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.gunaSeparator1);
             this.Controls.Add(this.lbl_reg);
             this.Controls.Add(this.pnl_ganado);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "reg_tratamiento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "v";
