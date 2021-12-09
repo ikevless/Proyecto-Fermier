@@ -22,7 +22,7 @@ namespace SG
             animales1.Dtgv_animales.CellContentClick += Dtgv_animales_CellContentClick;
             infoanimal.btn_regresar.Click += Btn_regresar_Click;
             establo1.btn_regresar.Click += Btn_regresar_Click1;
-
+           
 
         }
 
@@ -97,8 +97,10 @@ namespace SG
 
         private void Menuadmin_Load(object sender, EventArgs e)
         {
+           
             logo1.BringToFront();
             controlador.Menuadmin_Load();
+           
             
         }
 
@@ -151,6 +153,11 @@ namespace SG
         private void Btn_regan_Click_1(object sender, EventArgs e)
         {
             controlador.Btn_regan_Click_1();
+        }
+
+        private void infoanimal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
