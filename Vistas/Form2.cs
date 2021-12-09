@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SG.Vistas
 {
-    public partial class reg_gastos : Form
+    public partial class Form2 : Form
     {
-        public reg_gastos()
+        public Form2()
         {
             InitializeComponent();
         }

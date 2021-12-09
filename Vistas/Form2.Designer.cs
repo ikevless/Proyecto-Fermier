@@ -1,7 +1,7 @@
 ﻿
 namespace SG.Vistas
 {
-    partial class reg_gastos
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace SG.Vistas
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(reg_gastos));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.lbl_reg = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
