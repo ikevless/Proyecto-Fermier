@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using SG.Modelos;
 using Ganado;
+using SG.Controladores;
 
 namespace Ganado
 {
@@ -61,21 +62,24 @@ namespace Ganado
 
 
 
-        private void gunaButton1_Click_1(object sender, EventArgs e)
+        public void gunaButton1_Click_1(object sender, EventArgs e)
         {
 
-            SqlCommand codigo;
-            codigo = new SqlCommand("SELECT * FROM USUARIO WHERE idusuario = '" + textBox2.Text + "' and contraseña = '" + textBox1.Text + "'", Conexion.Conectar());
-            SqlDataReader leer = codigo.ExecuteReader();
-            if (leer.Read())
+            Login_Controlador controlador = new Login_Controlador();
+            controlador.LogIn(textBox2.Text, textBox1.Text);
+            if (controlador.flag==true)
             {
-                this.Hide();
                 MessageBox.Show("Inicio de sesion exitoso", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
             }
             else
             {
                 MessageBox.Show("La cuenta y/o contraseña son incorrectos.", "Información de cuenta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
+            
+            
+           
             
 
             

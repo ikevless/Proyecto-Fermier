@@ -37,7 +37,7 @@ namespace SG
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(131, 51);
+            this.pictureBox1.Location = new System.Drawing.Point(171, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 392);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -50,7 +50,7 @@ namespace SG
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pictureBox1);
             this.Name = "Logo";
-            this.Size = new System.Drawing.Size(757, 502);
+            this.Size = new System.Drawing.Size(842, 534);
             this.Load += new System.EventHandler(this.Logo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

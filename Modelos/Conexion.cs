@@ -12,7 +12,7 @@ namespace SG.Modelos
     {
         public static SqlConnection Conectar()
         {
-            SqlConnection cn = new SqlConnection("server = LAPTOP-BSB87KAT; database = SG; Integrated Security = true");
+            SqlConnection cn = new SqlConnection("server = MSI; database = SG; Integrated Security = true");
             cn.Open();
             return cn;
         }
