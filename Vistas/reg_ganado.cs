@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SG.Controladores;
 
 namespace SG
 {
@@ -88,6 +89,11 @@ namespace SG
         }
 
         private void gunaGradient2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void gunaLabel5_Click(object sender, EventArgs e)
         {
 
         }
