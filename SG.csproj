@@ -111,11 +111,11 @@
     <Compile Include="Vistas\Animales.Designer.cs">
       <DependentUpon>Animales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Form2.cs">
+    <Compile Include="Vistas\reg_gastos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Vistas\reg_gastos.Designer.cs">
+      <DependentUpon>reg_gastos.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Form3.cs">
       <SubType>Form</SubType>
@@ -209,6 +209,9 @@
     <EmbeddedResource Include="Vistas\Animales.resx">
       <DependentUpon>Animales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\reg_gastos.resx">
+      <DependentUpon>reg_gastos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
@@ -252,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\reg_vacuna.resx">
       <DependentUpon>reg_vacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

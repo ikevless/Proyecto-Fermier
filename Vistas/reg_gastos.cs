@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SG.Vistas
 {
-    public partial class Form2 : Form
+    public partial class reg_gastos : Form
     {
-        public Form2()
+        public reg_gastos()
         {
             InitializeComponent();
+        }
+
+        private void gunaGradient2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
