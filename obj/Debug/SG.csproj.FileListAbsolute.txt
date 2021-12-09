@@ -104,3 +104,4 @@ C:\Users\Kev\Source\Repos\ikevless\Proyecto-Fermier\obj\Debug\SG.csproj.CopyComp
 C:\Users\Kev\Source\Repos\ikevless\Proyecto-Fermier\obj\Debug\SG.exe
 C:\Users\Kev\Source\Repos\ikevless\Proyecto-Fermier\obj\Debug\SG.pdb
 C:\Users\Kev\source\repos\ikevless\Proyecto-Fermier\obj\Debug\SG.Vistas.Form3.resources
+C:\Users\Kev\source\repos\ikevless\Proyecto-Fermier\obj\Debug\SG.Vistas.Form2.resources
