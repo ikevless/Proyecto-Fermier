@@ -15,7 +15,9 @@ namespace SG.Controladores
         public bool flag = true;
         public void LogIn(String Usuario, String Password)
         {
-            
+
+            String alv;
+
             Ganado.LogIn log = new Ganado.LogIn();
             SqlCommand codigo;
             codigo = new SqlCommand("SELECT * FROM USUARIO WHERE idusuario = '" + Usuario + "' and contraseña = '" + Password + "'", Conexion.Conectar());
