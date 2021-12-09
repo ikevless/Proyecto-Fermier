@@ -29,6 +29,7 @@ namespace SG.Vistas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.lbl_reg = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
@@ -50,6 +51,7 @@ namespace SG.Vistas
             this.txb_alimento = new Guna.UI.WinForms.GunaLineTextBox();
             this.lbl_al = new Guna.UI.WinForms.GunaLabel();
             this.kryptonLabel1 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaGradient2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,9 +67,13 @@ namespace SG.Vistas
             this.lbl_reg.StateCommon.ShortText.ColorAngle = 4F;
             this.lbl_reg.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
             this.lbl_reg.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbl_reg.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.lbl_reg.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.lbl_reg.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl_reg.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lbl_reg.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_reg.StateNormal.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.lbl_reg.StateNormal.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.lbl_reg.TabIndex = 38;
             this.lbl_reg.Values.Text = "Registro de Gastos";
             // 
@@ -88,7 +94,7 @@ namespace SG.Vistas
             this.gunaGradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.gunaGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton1.Image")));
             this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton1.Location = new System.Drawing.Point(126, 675);
+            this.gunaGradientButton1.Location = new System.Drawing.Point(112, 675);
             this.gunaGradientButton1.Name = "gunaGradientButton1";
             this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
             this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
@@ -118,7 +124,7 @@ namespace SG.Vistas
             this.btn_volver.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btn_volver.Image = ((System.Drawing.Image)(resources.GetObject("btn_volver.Image")));
             this.btn_volver.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_volver.Location = new System.Drawing.Point(593, 675);
+            this.btn_volver.Location = new System.Drawing.Point(579, 675);
             this.btn_volver.Name = "btn_volver";
             this.btn_volver.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(189)))), ((int)(((byte)(186)))));
             this.btn_volver.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(82)))), ((int)(((byte)(73)))));
@@ -148,7 +154,7 @@ namespace SG.Vistas
             this.btn_guardar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("btn_guardar.Image")));
             this.btn_guardar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_guardar.Location = new System.Drawing.Point(353, 675);
+            this.btn_guardar.Location = new System.Drawing.Point(339, 675);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
             this.btn_guardar.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
@@ -181,7 +187,7 @@ namespace SG.Vistas
             this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(183, 83);
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(169, 83);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 10;
             this.gunaGradient2Panel1.Size = new System.Drawing.Size(477, 560);
@@ -383,7 +389,7 @@ namespace SG.Vistas
             // 
             // kryptonLabel1
             // 
-            this.kryptonLabel1.Location = new System.Drawing.Point(226, 24);
+            this.kryptonLabel1.Location = new System.Drawing.Point(212, 24);
             this.kryptonLabel1.Name = "kryptonLabel1";
             this.kryptonLabel1.Size = new System.Drawing.Size(397, 38);
             this.kryptonLabel1.StateCommon.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
@@ -393,23 +399,33 @@ namespace SG.Vistas
             this.kryptonLabel1.StateCommon.ShortText.ColorAngle = 4F;
             this.kryptonLabel1.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
             this.kryptonLabel1.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.kryptonLabel1.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.kryptonLabel1.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel1.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.kryptonLabel1.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.kryptonLabel1.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kryptonLabel1.StateNormal.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.kryptonLabel1.StateNormal.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel1.TabIndex = 42;
             this.kryptonLabel1.Values.Text = "Registro de Gastos";
+            // 
+            // gunaElipse1
+            // 
+            this.gunaElipse1.TargetControl = this;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(854, 740);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(824, 767);
             this.Controls.Add(this.gunaGradientButton1);
             this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.gunaGradient2Panel1);
             this.Controls.Add(this.kryptonLabel1);
             this.Controls.Add(this.lbl_reg);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -441,5 +457,6 @@ namespace SG.Vistas
         private Guna.UI.WinForms.GunaLineTextBox txb_alimento;
         private Guna.UI.WinForms.GunaLabel lbl_al;
         private ComponentFactory.Krypton.Toolkit.KryptonLabel kryptonLabel1;
+        private Guna.UI.WinForms.GunaElipse gunaElipse1;
     }
 }
