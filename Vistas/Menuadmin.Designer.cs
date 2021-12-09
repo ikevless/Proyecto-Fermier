@@ -34,17 +34,17 @@
             this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel_menu = new Guna.UI.WinForms.GunaPanel();
-            this.infoanimal1 = new SG.infoanimal();
-            this.logo1 = new SG.Logo();
-            this.animales1 = new SG.Animales();
-            this.establo1 = new SG.establo();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.btn_regsal = new Guna.UI.WinForms.GunaButton();
             this.btn_regan = new Guna.UI.WinForms.GunaButton();
             this.btn_establo = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel4 = new Guna.UI.WinForms.GunaPanel();
+            this.infoanimal = new SG.infoanimal();
             this.establo2 = new SG.establo();
+            this.logo1 = new SG.Logo();
+            this.animales1 = new SG.Animales();
+            this.establo1 = new SG.establo();
             this.gunaPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.panel_menu.SuspendLayout();
@@ -61,9 +61,9 @@
             this.gunaPanel2.Controls.Add(this.gunaPictureBox1);
             this.gunaPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaPanel2.Location = new System.Drawing.Point(267, 0);
-            this.gunaPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.gunaPanel2.Name = "gunaPanel2";
-            this.gunaPanel2.Size = new System.Drawing.Size(748, 41);
+            this.gunaPanel2.Size = new System.Drawing.Size(842, 41);
             this.gunaPanel2.TabIndex = 1;
             this.gunaPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaPanel2_Paint);
             // 
@@ -71,8 +71,8 @@
             // 
             this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(704, 0);
-            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(798, 0);
+            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
             this.gunaPictureBox1.Size = new System.Drawing.Size(44, 39);
             this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,57 +83,17 @@
             // panel_menu
             // 
             this.panel_menu.BackColor = System.Drawing.Color.White;
+            this.panel_menu.Controls.Add(this.infoanimal);
             this.panel_menu.Controls.Add(this.establo2);
-            this.panel_menu.Controls.Add(this.infoanimal1);
             this.panel_menu.Controls.Add(this.logo1);
             this.panel_menu.Controls.Add(this.animales1);
             this.panel_menu.Controls.Add(this.establo1);
-            this.panel_menu.Location = new System.Drawing.Point(267, 64);
-            this.panel_menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_menu.Location = new System.Drawing.Point(267, 39);
+            this.panel_menu.Margin = new System.Windows.Forms.Padding(4);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(748, 501);
+            this.panel_menu.Size = new System.Drawing.Size(842, 526);
             this.panel_menu.TabIndex = 2;
             this.panel_menu.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaPanel3_Paint);
-            // 
-            // infoanimal1
-            // 
-            this.infoanimal1.BackColor = System.Drawing.SystemColors.Control;
-            this.infoanimal1.Location = new System.Drawing.Point(0, -22);
-            this.infoanimal1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.infoanimal1.Name = "infoanimal1";
-            this.infoanimal1.Size = new System.Drawing.Size(739, 516);
-            this.infoanimal1.TabIndex = 3;
-            this.infoanimal1.Load += new System.EventHandler(this.infoanimal1_Load);
-            // 
-            // logo1
-            // 
-            this.logo1.BackColor = System.Drawing.SystemColors.Control;
-            this.logo1.Location = new System.Drawing.Point(0, -16);
-            this.logo1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.logo1.Name = "logo1";
-            this.logo1.Size = new System.Drawing.Size(745, 501);
-            this.logo1.TabIndex = 2;
-            this.logo1.Load += new System.EventHandler(this.logo1_Load);
-            // 
-            // animales1
-            // 
-            this.animales1.BackColor = System.Drawing.SystemColors.Control;
-            this.animales1.Location = new System.Drawing.Point(0, -22);
-            this.animales1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.animales1.Name = "animales1";
-            this.animales1.Size = new System.Drawing.Size(761, 523);
-            this.animales1.TabIndex = 1;
-            this.animales1.Load += new System.EventHandler(this.animales1_Load);
-            // 
-            // establo1
-            // 
-            this.establo1.BackColor = System.Drawing.SystemColors.Control;
-            this.establo1.Location = new System.Drawing.Point(0, -1);
-            this.establo1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.establo1.Name = "establo1";
-            this.establo1.Size = new System.Drawing.Size(757, 502);
-            this.establo1.TabIndex = 0;
-            this.establo1.Load += new System.EventHandler(this.establo1_Load);
             // 
             // gunaLabel1
             // 
@@ -158,7 +118,7 @@
             this.gunaPanel1.Controls.Add(this.gunaPanel4);
             this.gunaPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gunaPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(267, 565);
             this.gunaPanel1.TabIndex = 0;
@@ -178,7 +138,7 @@
             this.btn_regsal.Image = ((System.Drawing.Image)(resources.GetObject("btn_regsal.Image")));
             this.btn_regsal.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_regsal.Location = new System.Drawing.Point(7, 347);
-            this.btn_regsal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_regsal.Margin = new System.Windows.Forms.Padding(4);
             this.btn_regsal.Name = "btn_regsal";
             this.btn_regsal.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regsal.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -205,7 +165,7 @@
             this.btn_regan.Image = ((System.Drawing.Image)(resources.GetObject("btn_regan.Image")));
             this.btn_regan.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_regan.Location = new System.Drawing.Point(7, 288);
-            this.btn_regan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_regan.Margin = new System.Windows.Forms.Padding(4);
             this.btn_regan.Name = "btn_regan";
             this.btn_regan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regan.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -232,7 +192,7 @@
             this.btn_establo.Image = ((System.Drawing.Image)(resources.GetObject("btn_establo.Image")));
             this.btn_establo.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_establo.Location = new System.Drawing.Point(7, 229);
-            this.btn_establo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_establo.Margin = new System.Windows.Forms.Padding(4);
             this.btn_establo.Name = "btn_establo";
             this.btn_establo.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_establo.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -250,31 +210,70 @@
             this.gunaPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPanel4.BackgroundImage")));
             this.gunaPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPanel4.Location = new System.Drawing.Point(29, 15);
-            this.gunaPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.gunaPanel4.Name = "gunaPanel4";
             this.gunaPanel4.Size = new System.Drawing.Size(197, 149);
             this.gunaPanel4.TabIndex = 0;
             this.gunaPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaPanel4_Paint);
             // 
+            // infoanimal
+            // 
+            this.infoanimal.BackColor = System.Drawing.SystemColors.Control;
+            this.infoanimal.Location = new System.Drawing.Point(-3, 0);
+            this.infoanimal.Margin = new System.Windows.Forms.Padding(4);
+            this.infoanimal.Name = "infoanimal";
+            this.infoanimal.Size = new System.Drawing.Size(842, 525);
+            this.infoanimal.TabIndex = 5;
+            // 
             // establo2
             // 
-            this.establo2.Location = new System.Drawing.Point(502, 481);
+            this.establo2.Location = new System.Drawing.Point(0, 4);
             this.establo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.establo2.Name = "establo2";
-            this.establo2.Size = new System.Drawing.Size(757, 502);
+            this.establo2.Size = new System.Drawing.Size(838, 526);
             this.establo2.TabIndex = 4;
+            // 
+            // logo1
+            // 
+            this.logo1.BackColor = System.Drawing.SystemColors.Control;
+            this.logo1.Location = new System.Drawing.Point(0, -8);
+            this.logo1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.logo1.Name = "logo1";
+            this.logo1.Size = new System.Drawing.Size(842, 534);
+            this.logo1.TabIndex = 2;
+            this.logo1.Load += new System.EventHandler(this.logo1_Load);
+            // 
+            // animales1
+            // 
+            this.animales1.BackColor = System.Drawing.SystemColors.Control;
+            this.animales1.Location = new System.Drawing.Point(0, 2);
+            this.animales1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.animales1.Name = "animales1";
+            this.animales1.Size = new System.Drawing.Size(839, 523);
+            this.animales1.TabIndex = 1;
+            this.animales1.Load += new System.EventHandler(this.animales1_Load);
+            // 
+            // establo1
+            // 
+            this.establo1.BackColor = System.Drawing.SystemColors.Control;
+            this.establo1.Location = new System.Drawing.Point(0, 0);
+            this.establo1.Margin = new System.Windows.Forms.Padding(5);
+            this.establo1.Name = "establo1";
+            this.establo1.Size = new System.Drawing.Size(842, 521);
+            this.establo1.TabIndex = 0;
+            this.establo1.Load += new System.EventHandler(this.establo1_Load);
             // 
             // Menuadmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1015, 565);
+            this.ClientSize = new System.Drawing.Size(1109, 565);
             this.Controls.Add(this.panel_menu);
             this.Controls.Add(this.gunaPanel2);
             this.Controls.Add(this.gunaPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menuadmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -301,10 +300,10 @@
         private Guna.UI.WinForms.GunaButton btn_establo;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaPanel gunaPanel4;
-        public infoanimal infoanimal1;
         private Guna.UI.WinForms.GunaButton btn_regan;
         private Guna.UI.WinForms.GunaButton btn_regsal;
         public establo establo2;
+        public infoanimal infoanimal;
     }
 }
 

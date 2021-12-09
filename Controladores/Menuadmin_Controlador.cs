@@ -23,10 +23,9 @@ namespace SG.Controladores
             Menuadmin admin = new Menuadmin();
             admin.establo1.btn_e1.Click += admin.Btn_e1_Click;
             admin.animales1.Dtgv_animales.CellContentClick += admin.Dtgv_animales_CellContentClick;
-            admin.infoanimal1.btn_regresar.Click += admin.Btn_regresar_Click;
+            admin.infoanimal.btn_regresar.Click += admin.Btn_regresar_Click;
             admin.establo1.btn_regresar.Click += admin.Btn_regresar_Click1;
-            LogIn log = new LogIn();
-            log.ShowDialog();
+     
             admin.logo1.BringToFront();
             
 
@@ -38,7 +37,7 @@ namespace SG.Controladores
             String nombrecol = admin.animales1.Dtgv_animales.CurrentCell.OwningColumn.Name;
             if (nombrecol == "Detalles")
             {
-                admin.infoanimal1.BringToFront();
+                admin.infoanimal.BringToFront();
             }
         }
 

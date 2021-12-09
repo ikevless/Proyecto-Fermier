@@ -20,7 +20,7 @@ namespace SG
             
             establo1.btn_e1.Click += Btn_e1_Click;
             animales1.Dtgv_animales.CellContentClick += Dtgv_animales_CellContentClick;
-            infoanimal1.btn_regresar.Click += Btn_regresar_Click;
+            infoanimal.btn_regresar.Click += Btn_regresar_Click;
             establo1.btn_regresar.Click += Btn_regresar_Click1;
 
 
@@ -42,7 +42,7 @@ namespace SG
             String nombrecol = animales1.Dtgv_animales.CurrentCell.OwningColumn.Name;
             if (nombrecol == "Detalles")
             {
-                infoanimal1.BringToFront();
+                infoanimal.BringToFront();
             }
         }
 

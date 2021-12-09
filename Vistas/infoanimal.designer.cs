@@ -64,9 +64,10 @@
             this.gunaLabel5.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLabel5.Font = new System.Drawing.Font("Couture", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel5.ForeColor = System.Drawing.Color.Black;
-            this.gunaLabel5.Location = new System.Drawing.Point(290, 5);
+            this.gunaLabel5.Location = new System.Drawing.Point(284, 34);
+            this.gunaLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(227, 29);
+            this.gunaLabel5.Size = new System.Drawing.Size(291, 37);
             this.gunaLabel5.TabIndex = 28;
             this.gunaLabel5.Text = "INFORMACION";
             this.gunaLabel5.Click += new System.EventHandler(this.gunaLabel5_Click);
@@ -85,7 +86,8 @@
             this.btn_regresar.ForeColor = System.Drawing.Color.White;
             this.btn_regresar.Image = ((System.Drawing.Image)(resources.GetObject("btn_regresar.Image")));
             this.btn_regresar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_regresar.Location = new System.Drawing.Point(627, 346);
+            this.btn_regresar.Location = new System.Drawing.Point(697, 446);
+            this.btn_regresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_regresar.Name = "btn_regresar";
             this.btn_regresar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regresar.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -93,7 +95,7 @@
             this.btn_regresar.OnHoverImage = null;
             this.btn_regresar.OnPressedColor = System.Drawing.Color.Black;
             this.btn_regresar.Radius = 7;
-            this.btn_regresar.Size = new System.Drawing.Size(94, 32);
+            this.btn_regresar.Size = new System.Drawing.Size(131, 44);
             this.btn_regresar.TabIndex = 27;
             this.btn_regresar.Text = "Volver";
             this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
@@ -110,14 +112,15 @@
             this.btn_regtrat.ForeColor = System.Drawing.Color.White;
             this.btn_regtrat.Image = ((System.Drawing.Image)(resources.GetObject("btn_regtrat.Image")));
             this.btn_regtrat.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_regtrat.Location = new System.Drawing.Point(516, 194);
+            this.btn_regtrat.Location = new System.Drawing.Point(543, 279);
+            this.btn_regtrat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_regtrat.Name = "btn_regtrat";
             this.btn_regtrat.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regtrat.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_regtrat.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_regtrat.OnHoverImage = null;
             this.btn_regtrat.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_regtrat.Size = new System.Drawing.Size(205, 42);
+            this.btn_regtrat.Size = new System.Drawing.Size(285, 57);
             this.btn_regtrat.TabIndex = 3;
             this.btn_regtrat.Text = "Registro de tratamiento";
             this.btn_regtrat.Click += new System.EventHandler(this.btn_regtrat_Click);
@@ -134,14 +137,15 @@
             this.btn_regparto.ForeColor = System.Drawing.Color.White;
             this.btn_regparto.Image = ((System.Drawing.Image)(resources.GetObject("btn_regparto.Image")));
             this.btn_regparto.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_regparto.Location = new System.Drawing.Point(516, 128);
+            this.btn_regparto.Location = new System.Drawing.Point(543, 196);
+            this.btn_regparto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_regparto.Name = "btn_regparto";
             this.btn_regparto.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regparto.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_regparto.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_regparto.OnHoverImage = null;
             this.btn_regparto.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_regparto.Size = new System.Drawing.Size(205, 42);
+            this.btn_regparto.Size = new System.Drawing.Size(285, 57);
             this.btn_regparto.TabIndex = 2;
             this.btn_regparto.Text = "Registro de parto";
             this.btn_regparto.Click += new System.EventHandler(this.btn_regparto_Click);
@@ -158,14 +162,15 @@
             this.btn_regvacuna.ForeColor = System.Drawing.Color.White;
             this.btn_regvacuna.Image = ((System.Drawing.Image)(resources.GetObject("btn_regvacuna.Image")));
             this.btn_regvacuna.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_regvacuna.Location = new System.Drawing.Point(516, 62);
+            this.btn_regvacuna.Location = new System.Drawing.Point(543, 110);
+            this.btn_regvacuna.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_regvacuna.Name = "btn_regvacuna";
             this.btn_regvacuna.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btn_regvacuna.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_regvacuna.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_regvacuna.OnHoverImage = null;
             this.btn_regvacuna.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_regvacuna.Size = new System.Drawing.Size(205, 42);
+            this.btn_regvacuna.Size = new System.Drawing.Size(285, 57);
             this.btn_regvacuna.TabIndex = 1;
             this.btn_regvacuna.Text = "Registro de vacuna";
             this.btn_regvacuna.Click += new System.EventHandler(this.btn_regvacuna_Click);
@@ -185,9 +190,10 @@
             this.gunaPanel1.Controls.Add(this.gunaLabel3);
             this.gunaPanel1.Controls.Add(this.gunaLabel1);
             this.gunaPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(228)))), ((int)(((byte)(215)))));
-            this.gunaPanel1.Location = new System.Drawing.Point(18, 62);
+            this.gunaPanel1.Location = new System.Drawing.Point(4, 98);
+            this.gunaPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(451, 246);
+            this.gunaPanel1.Size = new System.Drawing.Size(465, 348);
             this.gunaPanel1.TabIndex = 0;
             // 
             // lbl_nombre
@@ -195,9 +201,10 @@
             this.lbl_nombre.AutoSize = true;
             this.lbl_nombre.BackColor = System.Drawing.Color.Transparent;
             this.lbl_nombre.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombre.Location = new System.Drawing.Point(83, 104);
+            this.lbl_nombre.Location = new System.Drawing.Point(108, 110);
+            this.lbl_nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(31, 19);
+            this.lbl_nombre.Size = new System.Drawing.Size(38, 24);
             this.lbl_nombre.TabIndex = 12;
             this.lbl_nombre.Text = "Pili";
             // 
@@ -206,9 +213,10 @@
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel6.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel6.Location = new System.Drawing.Point(4, 104);
+            this.gunaLabel6.Location = new System.Drawing.Point(2, 110);
+            this.gunaLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(76, 19);
+            this.gunaLabel6.Size = new System.Drawing.Size(93, 24);
             this.gunaLabel6.TabIndex = 11;
             this.gunaLabel6.Text = "Nombre:";
             // 
@@ -218,20 +226,22 @@
             this.lbl_i.BackColor = System.Drawing.Color.Transparent;
             this.lbl_i.Font = new System.Drawing.Font("Altone Trial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_i.ForeColor = System.Drawing.Color.White;
-            this.lbl_i.Location = new System.Drawing.Point(130, 46);
+            this.lbl_i.Location = new System.Drawing.Point(170, 39);
+            this.lbl_i.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_i.Name = "lbl_i";
-            this.lbl_i.Size = new System.Drawing.Size(66, 35);
+            this.lbl_i.Size = new System.Drawing.Size(91, 44);
             this.lbl_i.TabIndex = 10;
-            this.lbl_i.Text = "001";
+            this.lbl_i.Text = "002";
             // 
             // lbl_arete
             // 
             this.lbl_arete.AutoSize = true;
             this.lbl_arete.BackColor = System.Drawing.Color.Transparent;
             this.lbl_arete.Font = new System.Drawing.Font("Altone Trial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_arete.Location = new System.Drawing.Point(29, 46);
+            this.lbl_arete.Location = new System.Drawing.Point(36, 39);
+            this.lbl_arete.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_arete.Name = "lbl_arete";
-            this.lbl_arete.Size = new System.Drawing.Size(95, 35);
+            this.lbl_arete.Size = new System.Drawing.Size(119, 44);
             this.lbl_arete.TabIndex = 9;
             this.lbl_arete.Text = "Arete";
             // 
@@ -240,9 +250,10 @@
             this.gunaPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.Image")));
-            this.gunaPictureBox1.Location = new System.Drawing.Point(326, 86);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(310, 95);
+            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(122, 129);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(163, 159);
             this.gunaPictureBox1.TabIndex = 8;
             this.gunaPictureBox1.TabStop = false;
             // 
@@ -251,9 +262,10 @@
             this.lbl_precio.AutoSize = true;
             this.lbl_precio.BackColor = System.Drawing.Color.Transparent;
             this.lbl_precio.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_precio.Location = new System.Drawing.Point(158, 174);
+            this.lbl_precio.Location = new System.Drawing.Point(208, 196);
+            this.lbl_precio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_precio.Name = "lbl_precio";
-            this.lbl_precio.Size = new System.Drawing.Size(60, 19);
+            this.lbl_precio.Size = new System.Drawing.Size(73, 24);
             this.lbl_precio.TabIndex = 7;
             this.lbl_precio.Text = "$4500";
             // 
@@ -262,9 +274,10 @@
             this.lbl_peso.AutoSize = true;
             this.lbl_peso.BackColor = System.Drawing.Color.Transparent;
             this.lbl_peso.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_peso.Location = new System.Drawing.Point(44, 152);
+            this.lbl_peso.Location = new System.Drawing.Point(56, 169);
+            this.lbl_peso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_peso.Name = "lbl_peso";
-            this.lbl_peso.Size = new System.Drawing.Size(62, 19);
+            this.lbl_peso.Size = new System.Drawing.Size(78, 24);
             this.lbl_peso.TabIndex = 6;
             this.lbl_peso.Text = "650 Kg";
             // 
@@ -273,9 +286,10 @@
             this.lbl_fechain.AutoSize = true;
             this.lbl_fechain.BackColor = System.Drawing.Color.Transparent;
             this.lbl_fechain.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fechain.Location = new System.Drawing.Point(158, 127);
+            this.lbl_fechain.Location = new System.Drawing.Point(195, 138);
+            this.lbl_fechain.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_fechain.Name = "lbl_fechain";
-            this.lbl_fechain.Size = new System.Drawing.Size(89, 19);
+            this.lbl_fechain.Size = new System.Drawing.Size(107, 24);
             this.lbl_fechain.TabIndex = 5;
             this.lbl_fechain.Text = "13/10/2021";
             // 
@@ -284,9 +298,10 @@
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel4.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.Location = new System.Drawing.Point(3, 174);
+            this.gunaLabel4.Location = new System.Drawing.Point(1, 196);
+            this.gunaLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(152, 19);
+            this.gunaLabel4.Size = new System.Drawing.Size(188, 24);
             this.gunaLabel4.TabIndex = 3;
             this.gunaLabel4.Text = "Precio de compra:";
             // 
@@ -295,9 +310,10 @@
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel3.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.Location = new System.Drawing.Point(3, 152);
+            this.gunaLabel3.Location = new System.Drawing.Point(1, 169);
+            this.gunaLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(51, 19);
+            this.gunaLabel3.Size = new System.Drawing.Size(62, 24);
             this.gunaLabel3.TabIndex = 2;
             this.gunaLabel3.Text = "Peso:";
             // 
@@ -306,9 +322,10 @@
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(3, 127);
+            this.gunaLabel1.Location = new System.Drawing.Point(1, 138);
+            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(149, 19);
+            this.gunaLabel1.Size = new System.Drawing.Size(183, 24);
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "Fecha de ingreso:";
             // 
@@ -324,21 +341,22 @@
             this.gunaButton1.ForeColor = System.Drawing.Color.White;
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(516, 266);
+            this.gunaButton1.Location = new System.Drawing.Point(541, 361);
+            this.gunaButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton1.OnHoverImage = null;
             this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(205, 42);
+            this.gunaButton1.Size = new System.Drawing.Size(287, 57);
             this.gunaButton1.TabIndex = 29;
             this.gunaButton1.Text = "Registro de pesaje";
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // infoanimal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.gunaLabel5);
@@ -347,8 +365,9 @@
             this.Controls.Add(this.btn_regparto);
             this.Controls.Add(this.btn_regvacuna);
             this.Controls.Add(this.gunaPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "infoanimal";
-            this.Size = new System.Drawing.Size(753, 420);
+            this.Size = new System.Drawing.Size(842, 525);
             this.Load += new System.EventHandler(this.infoanimal_Load);
             this.gunaPanel1.ResumeLayout(false);
             this.gunaPanel1.PerformLayout();
