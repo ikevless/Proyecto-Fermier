@@ -1,7 +1,7 @@
 ﻿
 namespace SG.Vistas
 {
-    partial class Reportes
+    partial class reg_gastos
     {
         /// <summary>
         /// Required designer variable.
@@ -30,16 +30,10 @@ namespace SG.Vistas
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reportes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(reg_gastos));
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
-            this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
-            this.btn_volver = new Guna.UI.WinForms.GunaGradientButton();
-            this.btn_guardar = new Guna.UI.WinForms.GunaGradientButton();
+            this.lbl_reg = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
-            this.gunaLineTextBox2 = new Guna.UI.WinForms.GunaLineTextBox();
-            this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
-            this.txb_traslado = new Guna.UI.WinForms.GunaLineTextBox();
-            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLineTextBox1 = new Guna.UI.WinForms.GunaLineTextBox();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.dat_reg = new Guna.UI.WinForms.GunaDateTimePicker();
@@ -50,7 +44,13 @@ namespace SG.Vistas
             this.lbl_gas = new Guna.UI.WinForms.GunaLabel();
             this.txb_alimento = new Guna.UI.WinForms.GunaLineTextBox();
             this.lbl_al = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_reg = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.txb_traslado = new Guna.UI.WinForms.GunaLineTextBox();
+            this.gunaLineTextBox2 = new Guna.UI.WinForms.GunaLineTextBox();
+            this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
+            this.btn_volver = new Guna.UI.WinForms.GunaGradientButton();
+            this.btn_guardar = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradient2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,95 +58,27 @@ namespace SG.Vistas
             // 
             this.gunaElipse1.TargetControl = this;
             // 
-            // gunaGradientButton1
+            // lbl_reg
             // 
-            this.gunaGradientButton1.Animated = true;
-            this.gunaGradientButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaGradientButton1.AnimationSpeed = 0.03F;
-            this.gunaGradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.gunaGradientButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.gunaGradientButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.BorderSize = 1;
-            this.gunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.gunaGradientButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton1.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaGradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.gunaGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton1.Image")));
-            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton1.Location = new System.Drawing.Point(151, 677);
-            this.gunaGradientButton1.Name = "gunaGradientButton1";
-            this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
-            this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
-            this.gunaGradientButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton1.OnHoverImage = null;
-            this.gunaGradientButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.Radius = 5;
-            this.gunaGradientButton1.Size = new System.Drawing.Size(135, 42);
-            this.gunaGradientButton1.TabIndex = 35;
-            this.gunaGradientButton1.Text = "Cancelar";
-            // 
-            // btn_volver
-            // 
-            this.btn_volver.Animated = true;
-            this.btn_volver.AnimationHoverSpeed = 0.07F;
-            this.btn_volver.AnimationSpeed = 0.03F;
-            this.btn_volver.BackColor = System.Drawing.Color.Transparent;
-            this.btn_volver.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btn_volver.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_volver.BorderColor = System.Drawing.Color.Black;
-            this.btn_volver.BorderSize = 1;
-            this.btn_volver.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btn_volver.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_volver.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_volver.ForeColor = System.Drawing.Color.Black;
-            this.btn_volver.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btn_volver.Image = ((System.Drawing.Image)(resources.GetObject("btn_volver.Image")));
-            this.btn_volver.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_volver.Location = new System.Drawing.Point(618, 677);
-            this.btn_volver.Name = "btn_volver";
-            this.btn_volver.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(189)))), ((int)(((byte)(186)))));
-            this.btn_volver.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(82)))), ((int)(((byte)(73)))));
-            this.btn_volver.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_volver.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_volver.OnHoverImage = null;
-            this.btn_volver.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_volver.Radius = 5;
-            this.btn_volver.Size = new System.Drawing.Size(135, 42);
-            this.btn_volver.TabIndex = 37;
-            this.btn_volver.Text = "Volver";
-            // 
-            // btn_guardar
-            // 
-            this.btn_guardar.Animated = true;
-            this.btn_guardar.AnimationHoverSpeed = 0.07F;
-            this.btn_guardar.AnimationSpeed = 0.03F;
-            this.btn_guardar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_guardar.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btn_guardar.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_guardar.BorderColor = System.Drawing.Color.Black;
-            this.btn_guardar.BorderSize = 1;
-            this.btn_guardar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btn_guardar.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_guardar.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_guardar.ForeColor = System.Drawing.Color.Black;
-            this.btn_guardar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("btn_guardar.Image")));
-            this.btn_guardar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_guardar.Location = new System.Drawing.Point(378, 677);
-            this.btn_guardar.Name = "btn_guardar";
-            this.btn_guardar.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
-            this.btn_guardar.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
-            this.btn_guardar.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_guardar.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_guardar.OnHoverImage = null;
-            this.btn_guardar.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_guardar.Radius = 5;
-            this.btn_guardar.Size = new System.Drawing.Size(135, 42);
-            this.btn_guardar.TabIndex = 36;
-            this.btn_guardar.Text = "Guardar";
+            this.lbl_reg.Location = new System.Drawing.Point(195, 34);
+            this.lbl_reg.Name = "lbl_reg";
+            this.lbl_reg.Size = new System.Drawing.Size(397, 38);
+            this.lbl_reg.StateCommon.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
+            this.lbl_reg.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(27)))), ((int)(((byte)(15)))));
+            this.lbl_reg.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(103)))), ((int)(((byte)(95)))));
+            this.lbl_reg.StateCommon.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Control;
+            this.lbl_reg.StateCommon.ShortText.ColorAngle = 4F;
+            this.lbl_reg.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
+            this.lbl_reg.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbl_reg.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.lbl_reg.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
+            this.lbl_reg.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbl_reg.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.lbl_reg.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_reg.StateNormal.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.lbl_reg.StateNormal.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
+            this.lbl_reg.TabIndex = 29;
+            this.lbl_reg.Values.Text = "Registro de Gastos";
             // 
             // gunaGradient2Panel1
             // 
@@ -168,61 +100,12 @@ namespace SG.Vistas
             this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(208, 85);
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(152, 93);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 10;
             this.gunaGradient2Panel1.Size = new System.Drawing.Size(477, 560);
-            this.gunaGradient2Panel1.TabIndex = 39;
-            // 
-            // gunaLineTextBox2
-            // 
-            this.gunaLineTextBox2.Animated = true;
-            this.gunaLineTextBox2.BackColor = System.Drawing.Color.White;
-            this.gunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaLineTextBox2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.gunaLineTextBox2.Font = new System.Drawing.Font("Altone Trial", 12F);
-            this.gunaLineTextBox2.LineColor = System.Drawing.Color.Gainsboro;
-            this.gunaLineTextBox2.Location = new System.Drawing.Point(253, 458);
-            this.gunaLineTextBox2.Name = "gunaLineTextBox2";
-            this.gunaLineTextBox2.PasswordChar = '\0';
-            this.gunaLineTextBox2.Size = new System.Drawing.Size(128, 33);
-            this.gunaLineTextBox2.TabIndex = 7;
-            // 
-            // gunaLabel6
-            // 
-            this.gunaLabel6.AutoSize = true;
-            this.gunaLabel6.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.gunaLabel6.ForeColor = System.Drawing.Color.AliceBlue;
-            this.gunaLabel6.Location = new System.Drawing.Point(77, 466);
-            this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(170, 25);
-            this.gunaLabel6.TabIndex = 45;
-            this.gunaLabel6.Text = "Gasto/Pensión:";
-            // 
-            // txb_traslado
-            // 
-            this.txb_traslado.Animated = true;
-            this.txb_traslado.BackColor = System.Drawing.Color.White;
-            this.txb_traslado.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txb_traslado.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
-            this.txb_traslado.Font = new System.Drawing.Font("Altone Trial", 12F);
-            this.txb_traslado.LineColor = System.Drawing.Color.Gainsboro;
-            this.txb_traslado.Location = new System.Drawing.Point(253, 294);
-            this.txb_traslado.Name = "txb_traslado";
-            this.txb_traslado.PasswordChar = '\0';
-            this.txb_traslado.Size = new System.Drawing.Size(128, 33);
-            this.txb_traslado.TabIndex = 5;
-            // 
-            // gunaLabel5
-            // 
-            this.gunaLabel5.AutoSize = true;
-            this.gunaLabel5.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.gunaLabel5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.gunaLabel5.Location = new System.Drawing.Point(78, 58);
-            this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(45, 25);
-            this.gunaLabel5.TabIndex = 43;
-            this.gunaLabel5.Text = "De:";
+            this.gunaGradient2Panel1.TabIndex = 34;
+            this.gunaGradient2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaGradient2Panel1_Paint);
             // 
             // gunaLineTextBox1
             // 
@@ -368,41 +251,160 @@ namespace SG.Vistas
             this.lbl_al.TabIndex = 23;
             this.lbl_al.Text = "Alimento:";
             // 
-            // lbl_reg
+            // gunaLabel5
             // 
-            this.lbl_reg.Location = new System.Drawing.Point(251, 26);
-            this.lbl_reg.Name = "lbl_reg";
-            this.lbl_reg.Size = new System.Drawing.Size(397, 38);
-            this.lbl_reg.StateCommon.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
-            this.lbl_reg.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(27)))), ((int)(((byte)(15)))));
-            this.lbl_reg.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(103)))), ((int)(((byte)(95)))));
-            this.lbl_reg.StateCommon.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Control;
-            this.lbl_reg.StateCommon.ShortText.ColorAngle = 4F;
-            this.lbl_reg.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
-            this.lbl_reg.StateCommon.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.lbl_reg.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.lbl_reg.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
-            this.lbl_reg.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbl_reg.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.lbl_reg.StateNormal.ShortText.Font = new System.Drawing.Font("Couture", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_reg.StateNormal.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.lbl_reg.StateNormal.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
-            this.lbl_reg.TabIndex = 38;
-            this.lbl_reg.Values.Text = "Registro de Gastos";
+            this.gunaLabel5.AutoSize = true;
+            this.gunaLabel5.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.gunaLabel5.ForeColor = System.Drawing.Color.AliceBlue;
+            this.gunaLabel5.Location = new System.Drawing.Point(78, 58);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(45, 25);
+            this.gunaLabel5.TabIndex = 43;
+            this.gunaLabel5.Text = "De:";
             // 
-            // Reportes
+            // txb_traslado
+            // 
+            this.txb_traslado.Animated = true;
+            this.txb_traslado.BackColor = System.Drawing.Color.White;
+            this.txb_traslado.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txb_traslado.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
+            this.txb_traslado.Font = new System.Drawing.Font("Altone Trial", 12F);
+            this.txb_traslado.LineColor = System.Drawing.Color.Gainsboro;
+            this.txb_traslado.Location = new System.Drawing.Point(253, 294);
+            this.txb_traslado.Name = "txb_traslado";
+            this.txb_traslado.PasswordChar = '\0';
+            this.txb_traslado.Size = new System.Drawing.Size(128, 33);
+            this.txb_traslado.TabIndex = 5;
+            // 
+            // gunaLineTextBox2
+            // 
+            this.gunaLineTextBox2.Animated = true;
+            this.gunaLineTextBox2.BackColor = System.Drawing.Color.White;
+            this.gunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaLineTextBox2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
+            this.gunaLineTextBox2.Font = new System.Drawing.Font("Altone Trial", 12F);
+            this.gunaLineTextBox2.LineColor = System.Drawing.Color.Gainsboro;
+            this.gunaLineTextBox2.Location = new System.Drawing.Point(253, 458);
+            this.gunaLineTextBox2.Name = "gunaLineTextBox2";
+            this.gunaLineTextBox2.PasswordChar = '\0';
+            this.gunaLineTextBox2.Size = new System.Drawing.Size(128, 33);
+            this.gunaLineTextBox2.TabIndex = 7;
+            // 
+            // gunaLabel6
+            // 
+            this.gunaLabel6.AutoSize = true;
+            this.gunaLabel6.Font = new System.Drawing.Font("Altone Trial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.gunaLabel6.ForeColor = System.Drawing.Color.AliceBlue;
+            this.gunaLabel6.Location = new System.Drawing.Point(77, 466);
+            this.gunaLabel6.Name = "gunaLabel6";
+            this.gunaLabel6.Size = new System.Drawing.Size(170, 25);
+            this.gunaLabel6.TabIndex = 45;
+            this.gunaLabel6.Text = "Gasto/Pensión:";
+            // 
+            // gunaGradientButton1
+            // 
+            this.gunaGradientButton1.Animated = true;
+            this.gunaGradientButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientButton1.AnimationSpeed = 0.03F;
+            this.gunaGradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.gunaGradientButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.gunaGradientButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.BorderSize = 1;
+            this.gunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.gunaGradientButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientButton1.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.gunaGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton1.Image")));
+            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton1.Location = new System.Drawing.Point(95, 685);
+            this.gunaGradientButton1.Name = "gunaGradientButton1";
+            this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
+            this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
+            this.gunaGradientButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton1.OnHoverImage = null;
+            this.gunaGradientButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.Radius = 5;
+            this.gunaGradientButton1.Size = new System.Drawing.Size(135, 42);
+            this.gunaGradientButton1.TabIndex = 8;
+            this.gunaGradientButton1.Text = "Cancelar";
+            // 
+            // btn_volver
+            // 
+            this.btn_volver.Animated = true;
+            this.btn_volver.AnimationHoverSpeed = 0.07F;
+            this.btn_volver.AnimationSpeed = 0.03F;
+            this.btn_volver.BackColor = System.Drawing.Color.Transparent;
+            this.btn_volver.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btn_volver.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_volver.BorderColor = System.Drawing.Color.Black;
+            this.btn_volver.BorderSize = 1;
+            this.btn_volver.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_volver.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_volver.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_volver.ForeColor = System.Drawing.Color.Black;
+            this.btn_volver.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btn_volver.Image = ((System.Drawing.Image)(resources.GetObject("btn_volver.Image")));
+            this.btn_volver.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_volver.Location = new System.Drawing.Point(562, 685);
+            this.btn_volver.Name = "btn_volver";
+            this.btn_volver.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(189)))), ((int)(((byte)(186)))));
+            this.btn_volver.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(82)))), ((int)(((byte)(73)))));
+            this.btn_volver.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_volver.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_volver.OnHoverImage = null;
+            this.btn_volver.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_volver.Radius = 5;
+            this.btn_volver.Size = new System.Drawing.Size(135, 42);
+            this.btn_volver.TabIndex = 10;
+            this.btn_volver.Text = "Volver";
+            // 
+            // btn_guardar
+            // 
+            this.btn_guardar.Animated = true;
+            this.btn_guardar.AnimationHoverSpeed = 0.07F;
+            this.btn_guardar.AnimationSpeed = 0.03F;
+            this.btn_guardar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_guardar.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btn_guardar.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_guardar.BorderColor = System.Drawing.Color.Black;
+            this.btn_guardar.BorderSize = 1;
+            this.btn_guardar.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_guardar.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_guardar.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_guardar.ForeColor = System.Drawing.Color.Black;
+            this.btn_guardar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("btn_guardar.Image")));
+            this.btn_guardar.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_guardar.Location = new System.Drawing.Point(322, 685);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(34)))), ((int)(((byte)(30)))));
+            this.btn_guardar.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(137)))), ((int)(((byte)(131)))));
+            this.btn_guardar.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_guardar.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_guardar.OnHoverImage = null;
+            this.btn_guardar.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_guardar.Radius = 5;
+            this.btn_guardar.Size = new System.Drawing.Size(135, 42);
+            this.btn_guardar.TabIndex = 9;
+            this.btn_guardar.Text = "Guardar";
+            // 
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 744);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(795, 760);
             this.Controls.Add(this.gunaGradientButton1);
             this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.gunaGradient2Panel1);
             this.Controls.Add(this.lbl_reg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Reportes";
-            this.Text = "Reportes";
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.gunaGradient2Panel1.ResumeLayout(false);
             this.gunaGradient2Panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -413,14 +415,8 @@ namespace SG.Vistas
         #endregion
 
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
-        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
-        private Guna.UI.WinForms.GunaGradientButton btn_volver;
-        private Guna.UI.WinForms.GunaGradientButton btn_guardar;
+        private ComponentFactory.Krypton.Toolkit.KryptonLabel lbl_reg;
         private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel1;
-        private Guna.UI.WinForms.GunaLineTextBox gunaLineTextBox2;
-        private Guna.UI.WinForms.GunaLabel gunaLabel6;
-        private Guna.UI.WinForms.GunaLineTextBox txb_traslado;
-        private Guna.UI.WinForms.GunaLabel gunaLabel5;
         private Guna.UI.WinForms.GunaLineTextBox gunaLineTextBox1;
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaDateTimePicker dat_reg;
@@ -431,6 +427,12 @@ namespace SG.Vistas
         private Guna.UI.WinForms.GunaLabel lbl_gas;
         private Guna.UI.WinForms.GunaLineTextBox txb_alimento;
         private Guna.UI.WinForms.GunaLabel lbl_al;
-        private ComponentFactory.Krypton.Toolkit.KryptonLabel lbl_reg;
+        private Guna.UI.WinForms.GunaLabel gunaLabel5;
+        private Guna.UI.WinForms.GunaLineTextBox gunaLineTextBox2;
+        private Guna.UI.WinForms.GunaLabel gunaLabel6;
+        private Guna.UI.WinForms.GunaLineTextBox txb_traslado;
+        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
+        private Guna.UI.WinForms.GunaGradientButton btn_volver;
+        private Guna.UI.WinForms.GunaGradientButton btn_guardar;
     }
 }
