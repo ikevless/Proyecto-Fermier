@@ -375,6 +375,7 @@
             this.btn_guardar.Size = new System.Drawing.Size(135, 42);
             this.btn_guardar.TabIndex = 40;
             this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
             // 
             // reg_pesaje
             // 
