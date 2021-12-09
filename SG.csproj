@@ -209,6 +209,9 @@
     <EmbeddedResource Include="Vistas\Animales.resx">
       <DependentUpon>Animales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
