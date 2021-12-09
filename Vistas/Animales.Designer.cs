@@ -74,7 +74,7 @@ namespace SG
             this.Dtgv_animales.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Altone Trial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -94,7 +94,7 @@ namespace SG
             this.Eliminar});
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Altone Trial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
@@ -102,8 +102,8 @@ namespace SG
             this.Dtgv_animales.DefaultCellStyle = dataGridViewCellStyle5;
             this.Dtgv_animales.EnableHeadersVisualStyles = false;
             this.Dtgv_animales.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.Dtgv_animales.Location = new System.Drawing.Point(14, 132);
-            this.Dtgv_animales.Margin = new System.Windows.Forms.Padding(2);
+            this.Dtgv_animales.Location = new System.Drawing.Point(19, 162);
+            this.Dtgv_animales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Dtgv_animales.Name = "Dtgv_animales";
             this.Dtgv_animales.ReadOnly = true;
             this.Dtgv_animales.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -111,7 +111,7 @@ namespace SG
             this.Dtgv_animales.RowHeadersWidth = 51;
             this.Dtgv_animales.RowTemplate.Height = 24;
             this.Dtgv_animales.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.Dtgv_animales.Size = new System.Drawing.Size(956, 418);
+            this.Dtgv_animales.Size = new System.Drawing.Size(698, 514);
             this.Dtgv_animales.TabIndex = 3;
             this.Dtgv_animales.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.WetAsphalt;
             this.Dtgv_animales.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
@@ -205,7 +205,7 @@ namespace SG
             this.Editar.Name = "Editar";
             this.Editar.ReadOnly = true;
             this.Editar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Editar.Width = 70;
+            this.Editar.Width = 61;
             // 
             // Eliminar
             // 
@@ -219,16 +219,15 @@ namespace SG
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.ReadOnly = true;
             this.Eliminar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Eliminar.Width = 89;
+            this.Eliminar.Width = 78;
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Couture", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(116, 67);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(155, 82);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(147, 27);
+            this.gunaLabel1.Size = new System.Drawing.Size(185, 34);
             this.gunaLabel1.TabIndex = 7;
             this.gunaLabel1.Text = "Corral 1";
             // 
@@ -251,6 +250,7 @@ namespace SG
             this.dataGridViewImageColumn2.MinimumWidth = 6;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn2.Width = 125;
             // 
             // dataGridViewImageColumn3
             // 
@@ -263,16 +263,17 @@ namespace SG
             this.dataGridViewImageColumn3.MinimumWidth = 6;
             this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             this.dataGridViewImageColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn3.Width = 125;
             // 
             // gunaTransfarantPictureBox1
             // 
             this.gunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.gunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black;
             this.gunaTransfarantPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox1.Image")));
-            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(14, 22);
-            this.gunaTransfarantPictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(19, 27);
+            this.gunaTransfarantPictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaTransfarantPictureBox1.Name = "gunaTransfarantPictureBox1";
-            this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(90, 98);
+            this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(120, 121);
             this.gunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaTransfarantPictureBox1.TabIndex = 5;
             this.gunaTransfarantPictureBox1.TabStop = false;
@@ -284,9 +285,10 @@ namespace SG
             this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuTextbox1.ForeColor = System.Drawing.Color.Black;
             this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(334, 98);
+            this.bunifuTextbox1.Location = new System.Drawing.Point(445, 121);
+            this.bunifuTextbox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(195, 28);
+            this.bunifuTextbox1.Size = new System.Drawing.Size(260, 34);
             this.bunifuTextbox1.TabIndex = 4;
             this.bunifuTextbox1.text = "";
             // 
@@ -302,15 +304,15 @@ namespace SG
             // 
             // Animales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.gunaTransfarantPictureBox1);
             this.Controls.Add(this.bunifuTextbox1);
             this.Controls.Add(this.Dtgv_animales);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Animales";
-            this.Size = new System.Drawing.Size(984, 571);
+            this.Size = new System.Drawing.Size(1312, 703);
             this.Load += new System.EventHandler(this.Animales_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Dtgv_animales)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).EndInit();
