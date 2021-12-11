@@ -8,6 +8,7 @@ using SG.Modelos;
 using SG.Vistas;
 using SG;
 using Ganado;
+using System.Windows.Forms;
 namespace SG.Controladores
 {
     public class Login_Controlador
@@ -16,7 +17,7 @@ namespace SG.Controladores
         public void LogIn(String Usuario, String Password)
         {
             
-            Ganado.LogIn log = new Ganado.LogIn();
+            
             SqlCommand codigo;
             codigo = new SqlCommand("SELECT * FROM USUARIO WHERE idusuario = '" + Usuario + "' and contraseña = '" + Password + "'", Conexion.Conectar());
             SqlDataReader leer = codigo.ExecuteReader();
@@ -24,12 +25,13 @@ namespace SG.Controladores
             {
                
                 flag = true;
-               
+                MessageBox.Show("Inicio de sesion exitoso", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             else
             {
                 flag = false;
-             
+                MessageBox.Show("La cuenta y/o contraseña son incorrectos.", "Información de cuenta", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

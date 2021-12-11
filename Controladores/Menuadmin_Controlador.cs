@@ -26,8 +26,8 @@ namespace SG.Controladores
             admin.animales1.Dtgv_animales.CellContentClick += admin.Dtgv_animales_CellContentClick;
             admin.infoanimal.btn_regresar.Click += admin.Btn_regresar_Click;
             admin.establo1.btn_regresar.Click += admin.Btn_regresar_Click1;
-            LogIn log = new LogIn();
-            log.ShowDialog();
+           /* LogIn log = new LogIn();
+            log.ShowDialog();*/
             admin.logo1.BringToFront();
             
 

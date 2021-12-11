@@ -17,5 +17,11 @@ namespace SG.Modelos
             return cn;
         }
 
+        public static SqlConnection Desconectar()
+        {
+            SqlConnection cn = new SqlConnection("server = MSI; database = SG; Integrated Security = true");
+            cn.Close();
+            return cn;
+        }
     }
 }

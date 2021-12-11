@@ -67,16 +67,7 @@ namespace Ganado
 
             Login_Controlador controlador = new Login_Controlador();
             controlador.LogIn(textBox2.Text, textBox1.Text);
-            if (controlador.flag==true)
-            {
-                MessageBox.Show("Inicio de sesion exitoso", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("La cuenta y/o contraseña son incorrectos.", "Información de cuenta", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
+            
             
             
            
